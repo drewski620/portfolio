@@ -85,7 +85,7 @@ a {
     color: #F5CB5C;
 }
 
-a:hover  {
+a:hover, .bioLinks:hover {
     color: #e8eddf;
   }
 a:hover, .projectLinks:hover  {
