@@ -85,10 +85,13 @@ a {
     color: #F5CB5C;
 }
 
-a:hover {
+a:hover  {
     color: #e8eddf;
-    background-color: #333533;
   }
+a:hover, .projectLinks:hover  {
+    color: #242423;
+     
+}
 
   
 /* .contact-info {
