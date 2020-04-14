@@ -7,6 +7,7 @@ html {
 }
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #333533;
 }
 
 .header {
@@ -14,7 +15,7 @@ body {
 }
 
 .bg-light {
-    background-color: #1CCAD8 !important;
+    background-color:#F5CB5C!important;
 }
 .container {
     margin-left: auto;
@@ -36,7 +37,7 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     margin-top:30px;
-    color: #2F97C1;
+    color:#F5CB5C;
 }
 
 #lighthouse {
@@ -45,8 +46,12 @@ h1 {
 }
 p {
     font-size: 18px;
-    color: #587291;
+    color: #F5CB5C
 
+}
+
+label {
+    color: #F5CB5C;
 }
 
 /* .contact-info {
@@ -56,7 +61,7 @@ p {
 .projects {
     float: left;
     width: 33.3%; 
-    color: darkgray;
+    color: #242423;
     font-style: unset;
     padding-bottom: 45px;
     padding-left: 10px;
@@ -64,13 +69,26 @@ p {
     margin-bottom: 50px;
 }    
 
+.card-text {
+    color: #333533;
+}
+
 footer {
     clear: both;
     bottom: 0;
     width: 100%;
     height: 120px;
     margin-top: 20px;
+    
 }
+a {
+    color: #F5CB5C;
+}
+
+a:hover {
+    color: #e8eddf;
+  }
+  
 /* .contact-info {
     position: fixed;
 } */
