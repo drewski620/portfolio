@@ -87,7 +87,9 @@ a {
 
 a:hover {
     color: #e8eddf;
+    background-color: #333533;
   }
+
   
 /* .contact-info {
     position: fixed;
