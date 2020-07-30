@@ -10,6 +10,10 @@ body {
     background-color: #333533;
 }
 
+.dropdown {
+    padding-top: 1px;
+}
+
 .header {
 
 }
@@ -40,8 +44,9 @@ h1 {
     color:#F5CB5C;
 }
 
-#lighthouse {
+#certificate {
     margin-bottom: 30px;
+    float: right;
 
 }
 p {
