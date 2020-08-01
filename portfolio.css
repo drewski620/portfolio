@@ -19,6 +19,10 @@ html {
     background-color: #F5CB5C;
 }
 
+.navbar-brand {
+    padding-left: 20px;
+}
+
 .dropdown {
     padding-top: 1px;
     
@@ -36,7 +40,19 @@ a:hover, .dropdown-item:hover {
 }
 a:hover, .nav-link:hover {
     background-color: #F5CB5C !important;
+    color: #333533
+}
+.nav-contact {
+    color: black;
+    padding-left: 1000px;
+    font-size: 18px;
     
+    
+}
+a:hover, .nav-contact:hover {
+    background-color: #F5CB5C !important;
+    text-decoration: none;
+    color: #333533
 }
 
 
@@ -63,12 +79,18 @@ a:hover, .nav-link:hover {
     padding-top: 30px;
     margin-top: 20px;
     
+    
 }
-
+#myLife {
+    font-size: 44px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .bio {
     font-size: 24px;
     color: #F5CB5C;
+    text-align: left;
 }
 
 
@@ -85,8 +107,8 @@ h1 {
 #certificate {
     margin-bottom: 30px;
     float: right;
-    padding-left: 20px;
-    margin-top: 50px;
+    padding-left: 26px;
+    margin-top: 30px;
 
 }
 
@@ -167,6 +189,7 @@ footer {
     width: 100%;
     height: 120px;
     margin-top: 20px;
+    padding-top: 60px;
     
     
     
