@@ -19,9 +19,15 @@ html {
     background-color: #F5CB5C;
 }
 
+
 .navbar-brand {
     padding-left: 20px;
+    
 }
+a:hover, .navbar-brand {
+    background-color:#F5CB5C !important;
+}
+
 
 .dropdown {
     padding-top: 1px;
@@ -44,10 +50,15 @@ a:hover, .nav-link:hover {
 }
 .nav-contact {
     color: black;
-    padding-left: 1000px;
     font-size: 18px;
     
     
+    
+    
+}
+a:hover, .navbar-nav:hover {
+    background-color: #F5CB5C !important;
+
 }
 a:hover, .nav-contact:hover {
     background-color: #F5CB5C !important;
@@ -130,11 +141,7 @@ a {
 }
 
 
-a:hover, .projectLinks:hover  {
-    color: #242423;
-    background-color: white !important;
-     
-}
+
 
 #typeOfProjects {
     padding-top: 60px;
@@ -177,10 +184,19 @@ a:hover, .projectLinks:hover  {
 }
 .projectLinks {
     font-size: 16px;
-    margin-top: 0px;
+    margin-top: 0px;  
+    
+    color: black;
+}
+
+a:hover, .projectLinks:hover  {
+    color: black;
+    border-radius: 5px;
+    
+
     
     
-    
+     
 }
 /* FOOTER */
 
