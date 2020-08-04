@@ -47,21 +47,20 @@ a.dropdown-item:hover {
 }
 
 .nav-contact {
-    color: black;
+    color: #333533 !important;
     font-size: 18px;
+    padding-right: 20px;
+    
     
     
     
     
 }
-a:hover, .navbar-nav:hover {
-    background-color: #F5CB5C !important;
 
-}
  .nav-contact:hover {
-    background-color: none;
     text-decoration: none;
-    color: #333533
+    color: black !important;
+    font-size: 22px;
 }
 
 
@@ -120,8 +119,14 @@ h1 {
     margin-top: 30px;
 
 }
-
-
+.erin {
+    font-size: 28px;
+   
+}
+.bio .erin:hover {
+    color: white
+    
+}
 label {
     color: #F5CB5C;
 }
@@ -148,67 +153,57 @@ a {
 }
 
 /*PROJECT CARDS */
-.projects {
-    float: left;
-    width: 33.3%; 
-    color: #242423;
-    font-style: unset;
-    padding-bottom: 45px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 20px;
-    
-}    
 
-.card-img-top {
-    height: 240px;
+
+.projectsSection {
+    display:flex;
+    width:100%;
 }
-
-#projectName {
+.projectCard {
+    flex:1;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin:10px;
+}
+.projectCard img {
+    width:100%;
+}
+.ProjectCardBody {
+    padding: 20px;
+}
+.projectName {
     height: 80px;
-    padding-top: 8px;
-    
 }
-
-.card-text {
+.projectDesc {
     font-size: 22px;
-    height: 200px;
+    min-height: 200px;
     color: #333533;
 }
-
-.projectLinkBody {
-  padding-top: 40px;
-  padding-bottom: 0px;
-}
-.projectLinks {
+.ProjectCardBody a {
     font-size: 16px;
     margin-top: 0px;  
-    
-    color: #F5CB5C
+    color: #F5CB5C;
 }
-
-
-
-a.projectLinks:hover {
+.ProjectCardBody a:hover {
     color: black;
-    
     background-color: white !important;
-
-    
-    
-     
+  
 }
+@media screen and (max-width:990px) {
+    .projectsSection {
+        flex-direction: column;
+    }
+}
+
+
+
 /* FOOTER */
 
 footer {
-    clear: both;
-    bottom: 0;
-    width: 100%;
-    height: 120px;
-    margin-top: 20px;
-    padding-top: 60px;
     
-    
+    padding-top: 40px;
+    line-height: 8px;
     
 }
 .footerName {
@@ -228,8 +223,5 @@ footer {
     .left, .main, .right {
       width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
-    .projects {
-        float:none;
-        width:100%;
-    }
+   
   }
