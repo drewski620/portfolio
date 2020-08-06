@@ -211,9 +211,15 @@ footer {
     font-weight: 600;
 }
 
+.bioLinks {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .bioLinks:hover {
     color: #e8eddf;
     background-color: #333533 !important;
+    text-decoration: none;
   }
   
 
