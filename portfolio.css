@@ -93,6 +93,7 @@ a.dropdown-item:hover {
     font-size: 44px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Cinzel', serif;
 }
 
 .bio {
@@ -113,19 +114,19 @@ h1 {
 }
 
 #certificate {
-    margin-bottom: 30px;
-    float: right;
-    padding-left: 26px;
-    margin-top: 30px;
+     float: right;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     padding-right: 10px;
+    
+    
 
 }
-.erin {
-    font-size: 28px;
-   
-}
+
 .bio .erin:hover {
-    color: white
-    
+    color: white;
+    text-decoration: none;
 }
 label {
     color: #F5CB5C;
@@ -150,6 +151,7 @@ a {
     padding-top: 60px;
     margin-top:40px;
     font-size: 44px;
+    font-family: 'Cinzel', serif;
 }
 
 /*PROJECT CARDS */
