@@ -7,7 +7,7 @@ html {
 }
 .body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #333533;
+    background-color: #02101A;
 }
 /* NAVBAR */
 .navbar {
@@ -16,7 +16,7 @@ html {
     top: 0;
     width: 100%;
     z-index:1;
-    background-color: #F5CB5C;
+    /* background-color: #072B44; */
     
 
 }
@@ -24,7 +24,7 @@ html {
 
 .navbar-brand {
     padding-left: 20px;
-    
+    color: #5e8aa9 !important;
 }
 
 
@@ -34,13 +34,13 @@ html {
     
 }
 .dropdown-menu.show {
-    background-color:#F5CB5C !important;
+    background-color:#072B44 !important;
     
 }
 
 a.dropdown-item:hover {
-    color: #F5CB5C;
-    background-color: #333533 !important;
+    color: #02101A;
+    background-color: #5e8aa9 !important;
     
     
 }
@@ -49,7 +49,7 @@ a.dropdown-item:hover {
 }
 
 .nav-contact {
-    color: #333533 !important;
+    color: #5e8aa9 !important;
     font-size: 18px;
     padding-right: 20px;
     
@@ -64,12 +64,14 @@ a.dropdown-item:hover {
     color: black !important;
     font-size: 22px;
 }
-
+.nav-link {
+    color: #a6c0d2 !important;
+}
 
 
 
 .bg-light {
-    background-color:#F5CB5C!important;
+    background-color:#072B44 !important;
 }
 
 
@@ -106,12 +108,13 @@ a.dropdown-item:hover {
 #myLife {
     font-size: 44px;
     font-family: 'Cinzel', serif;
-    color:#F5CB5C;
+    color:#5e8aa9;
+    font-weight: bold;
 }
 
 .bio {
     font-size: 24px;
-    color: #F5CB5C;
+    color: #a6c0d2;
     text-align: left;
 }
 
@@ -138,12 +141,12 @@ label {
 
 .divide {
     
-    background-color: #F5CB5C;
+    background-color: #a6c0d2;
     
 }
 
 a {
-    color: #F5CB5C;
+    color: #5e8aa9;
 }
 
 
@@ -157,7 +160,7 @@ a {
     font-family: 'Cinzel', serif;
     font-weight: bold;
     text-align: center;
-    color:#F5CB5C;
+    color:#5e8aa9;
 }
 
 /*PROJECT CARDS */
@@ -181,16 +184,17 @@ a {
 }
 .projectName {
     height: 80px;
+    color: #072b44;    
 }
 .projectDesc {
     font-size: 22px;
     min-height: 200px;
-    color: #333533;
+    color: #072b44;
 }
 .projectLinks {
     font-size: 16px;
     margin-top: 0px;  
-    color: #F5CB5C;
+    color: #5e8aa9;
     position: relative;
 }
 a.projectLinks {
@@ -221,6 +225,13 @@ a.projectLinks:hover:before {
     text-decoration: none;
   
 }
+.btn {
+    color:#a6c0d2 !important;
+}
+.dropdown-item {
+    color:#a6c0d2;
+}
+
 @media screen and (max-width:990px) {
     .projectsSection {
         flex-direction: column;
@@ -238,7 +249,7 @@ footer {
     
 }
 .footerName {
-    color: #F5CB5C !important;
+    color: #5e8aa9 !important;
     font-size: 18px;
     font-weight: 600;
 }
