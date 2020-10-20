@@ -17,6 +17,8 @@ html {
     width: 100%;
     z-index:1;
     background-color: #F5CB5C;
+    
+
 }
 
 
@@ -71,6 +73,19 @@ a.dropdown-item:hover {
 }
 
 
+.sailingHero {
+    margin-top: 56px;
+    margin-bottom: 40px;
+    width: 100%;
+    
+}
+
+.mountainHero {
+    width: 100%;
+    margin-bottom: 60px;
+    
+}
+
 
 .container {
     margin-left: auto;
@@ -84,16 +99,14 @@ a.dropdown-item:hover {
 
 .content-wrap {
     font-size: 46px;
-    padding-top: 30px;
-    margin-top: 20px;
+    
     
     
 }
 #myLife {
     font-size: 44px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: 'Cinzel', serif;
+    color:#F5CB5C;
 }
 
 .bio {
@@ -104,34 +117,23 @@ a.dropdown-item:hover {
 
 
 
-h1 {
+/* h1 {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top:30px;
+    
     color:#F5CB5C;
-}
+} */
 
-#certificate {
-     float: right;
-     padding-left: 30px;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     padding-right: 10px;
-    
-    
 
-}
 
-.bio .erin:hover {
-    color: white;
-    text-decoration: none;
-}
 label {
     color: #F5CB5C;
 }
 
+.carousel {
+    margin-top: 50px;
+}
 
 
 .divide {
@@ -148,10 +150,14 @@ a {
 
 
 #typeOfProjects {
-    padding-top: 60px;
-    margin-top:40px;
+    padding-top: 100px;
+    /* margin-top:40px; */
+    padding-bottom: 20px;
     font-size: 44px;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    color:#F5CB5C;
 }
 
 /*PROJECT CARDS */
