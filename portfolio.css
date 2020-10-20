@@ -44,6 +44,15 @@ a.dropdown-item:hover {
     
     
 }
+.btn {
+    color:#a6c0d2 !important;
+}
+.btn:hover {
+    color: #5e8aa9!important;
+}
+.dropdown-item {
+    color:#a6c0d2;
+}
 .btn:focus {
     box-shadow: none !important;
 }
@@ -61,11 +70,14 @@ a.dropdown-item:hover {
 
  .nav-contact:hover {
     text-decoration: none;
-    color: black !important;
-    font-size: 22px;
+    color: #a6c0d2 !important;
 }
 .nav-link {
     color: #a6c0d2 !important;
+}
+a.nav-link:hover {
+    color: #5e8aa9!important;
+    
 }
 
 
@@ -145,9 +157,9 @@ label {
     
 }
 
-a {
+/* a {
     color: #5e8aa9;
-}
+} */
 
 
 
@@ -221,16 +233,11 @@ a.projectLinks:hover:before {
 }
 
 .projectLinks:hover {
-    color: black;
+    color: #072b44;
     text-decoration: none;
   
 }
-.btn {
-    color:#a6c0d2 !important;
-}
-.dropdown-item {
-    color:#a6c0d2;
-}
+
 
 @media screen and (max-width:990px) {
     .projectsSection {
@@ -257,11 +264,11 @@ footer {
 .bioLinks {
     padding-left: 10px;
     padding-right: 10px;
+    color: #5e8aa9;
 }
 
 .bioLinks:hover {
-    color: #e8eddf;
-    background-color: #333533 !important;
+    color: #a6c0d2;
     text-decoration: none;
   }
   
