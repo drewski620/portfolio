@@ -130,6 +130,38 @@ a.nav-link:hover {
     text-align: left;
 }
 
+/* .erin {
+    color: #a6c0d2
+} */
+
+.erin:hover {
+    color: #5e8aa9;
+    text-decoration: none;
+}
+.erin {
+    color: #a6c0d2;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .erin:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #5e8aa9;
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .erin:hover:after,
+  .erin:focus:after,
+  .erin:active:after {
+    right: 0;
+  }
 
 
 /* h1 {
@@ -142,9 +174,9 @@ a.nav-link:hover {
 
 
 
-label {
+/* label {
     color: #F5CB5C;
-}
+} */
 
 .carousel {
     margin-top: 50px;
