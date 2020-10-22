@@ -154,7 +154,7 @@ a.nav-link:hover {
     background: #5e8aa9;
     height: 2px;
     transition-property: left right;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
     transition-timing-function: ease-out;
   }
   .erin:hover:after,
@@ -270,6 +270,25 @@ a.projectLinks:hover:before {
   
 }
 
+.personalProjectNames {
+    color: #5e8aa9;
+    font-size: 36px;
+}
+
+#form {
+    color: #a6c0d2
+}
+
+.genPassword {
+    color: #02101A;
+    background-color: #a6c0d2;
+    border-radius: 4px;
+}
+
+#password {
+    color: #a6c0d2;
+    font-size: 30p;
+}
 
 @media screen and (max-width:990px) {
     .projectsSection {

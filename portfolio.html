@@ -47,7 +47,7 @@
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item ">
-                    <a class="nav-contact" href="#contactLink">Contact Me</a>
+                    <a class="nav-contact" href="contact.html">Contact Me</a>
 
                 </li>
             </ul>
@@ -106,6 +106,28 @@
         <a id="personal">
 
         </a>
+        <h2 class="personalProjectNames">Password Generator:</h2>
+        <form id="form">
+            <div>
+                <label>Length</label>
+                <input type="number" name="length"/>
+            </div>
+            <div>
+                <input type="checkbox" name="characters" value="uppercase"/> Uppercase
+                <input type="checkbox" name="characters" value="lowercase"/> Lowercase
+                <input type="checkbox" name="characters" value="special"/> Special Characters
+                <input type="checkbox" name="characters" value="numeric"/> Numeric
+            </div>
+            <div>
+                <button class="genPassword" type= "submit">Generate Password</button>
+            </div>
+        </form>
+        <div> 
+
+        </div>
+        <p id="password"> New Password:</p>
+        
+        
 
         <footer>
 
@@ -124,6 +146,7 @@
         </footer>
 
     </section>
+    <script src ="password.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
