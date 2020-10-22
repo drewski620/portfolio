@@ -180,6 +180,7 @@ a.nav-link:hover {
 
 .carousel {
     margin-top: 50px;
+    
 }
 
 
@@ -290,6 +291,47 @@ a.projectLinks:hover:before {
     font-size: 30p;
 }
 
+
+/* CONTACT PAGE *//* CONTACT PAGE *//* CONTACT PAGE *//* CONTACT PAGE */
+.letsConnect {
+    color: #5e8aa9
+}
+
+.contactBio {
+    font-size: 22px;
+    color: #a6c0d2;
+    text-align: left;
+}
+.certificate {
+    width: 100%;
+    padding-top: 10px;
+    /* min-height: 300px; */
+    
+}
+
+.btn {
+    background-color: #5e8aa9;
+    color: #02101A!important;
+    margin-top: 20px;
+    /* margin-left: 60px; */
+   
+}
+
+.btn:hover {
+    outline-width: 2px !important;
+    outline-color: #a6c0d2;
+    background-color: #072B44;
+    color: #a6c0d2
+}
+
+.connectLinks {
+    margin-top: 30px;
+}
+
+.contactLinks {
+    color: #a6c0d2
+}
+
 @media screen and (max-width:990px) {
     .projectsSection {
         flex-direction: column;
@@ -303,18 +345,24 @@ a.projectLinks:hover:before {
 footer {
     
     padding-top: 40px;
-    line-height: 8px;
+    
     
 }
 .footerName {
     color: #5e8aa9 !important;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
+}
+
+.footerName:hover {
+    text-decoration: none;
+    color: #5e8aa9
 }
 
 .bioLinks {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 8px;
     color: #5e8aa9;
 }
 
