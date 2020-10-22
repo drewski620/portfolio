@@ -44,16 +44,17 @@ a.dropdown-item:hover {
     
     
 }
-.btn {
+.navBtn {
     color:#a6c0d2 !important;
 }
-.btn:hover {
+.navBtn:hover {
     color: #5e8aa9!important;
+    text-decoration: none;
 }
 .dropdown-item {
     color:#a6c0d2;
 }
-.btn:focus {
+.navBtn:focus {
     box-shadow: none !important;
 }
 
@@ -310,22 +311,20 @@ a.projectLinks:hover:before {
 }
 
 .btn {
-    background-color: #5e8aa9;
-    color: #02101A!important;
+    background-color: #a6c0d2;
+    color: #02101A;
     margin-top: 20px;
-    /* margin-left: 60px; */
-   
 }
 
-.btn:hover {
-    outline-width: 2px !important;
-    outline-color: #a6c0d2;
-    background-color: #072B44;
-    color: #a6c0d2
+.btn:hover { 
+    background-color: #5e8aa9;
+    color: #a6c0d2;
+    
 }
 
 .connectLinks {
     margin-top: 30px;
+    text-align: center;
 }
 
 .contactLinks {
