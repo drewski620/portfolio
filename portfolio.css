@@ -46,6 +46,7 @@ a.dropdown-item:hover {
 }
 .navBtn {
     color:#a6c0d2 !important;
+    padding-top: 7px!important;
 }
 .navBtn:hover {
     color: #5e8aa9!important;
@@ -328,7 +329,15 @@ a.projectLinks:hover:before {
 }
 
 .contactLinks {
-    color: #a6c0d2
+    color: #a6c0d2;
+    padding-bottom: 10px;
+    
+}
+
+.contactLinks:hover {
+    text-decoration: none;
+    color: #5e8aa9
+    
 }
 
 @media screen and (max-width:990px) {
