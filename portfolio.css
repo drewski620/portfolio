@@ -1,60 +1,71 @@
 * {
    box-sizing: border-box;
 }
-/* time 9:43 */
+
 html {
     overflow-y: scroll;
 }
+
 .body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #02101A;
 }
-/* NAVBAR */
-.navbar {
-    
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    text-align: center;
+    position: relative; 
+}
+
+.content-wrap {
+    font-size: 46px;  
+}
+
+
+/* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR *//* NAVBAR */
+
+.navbar { 
     position: fixed !important;
     top: 0;
     width: 100%;
     z-index:1;
     /* background-color: #072B44; */
-    
-
 }
-
 
 .navbar-brand {
     padding-left: 20px;
     color: #5e8aa9 !important;
 }
 
-
-
 .dropdown {
     padding-top: 1px;
-    
 }
+
 .dropdown-menu.show {
-    background-color:#072B44 !important;
-    
+    background-color:#072B44 !important; 
 }
 
 a.dropdown-item:hover {
     color: #02101A;
     background-color: #5e8aa9 !important;
-    
-    
 }
+
 .navBtn {
     color:#a6c0d2 !important;
     padding-top: 7px!important;
 }
+
 .navBtn:hover {
     color: #5e8aa9!important;
     text-decoration: none;
 }
+
 .dropdown-item {
     color:#a6c0d2;
 }
+
 .navBtn:focus {
     box-shadow: none !important;
 }
@@ -62,63 +73,44 @@ a.dropdown-item:hover {
 .nav-contact {
     color: #5e8aa9 !important;
     font-size: 18px;
-    padding-right: 20px;
-    
-    
-    
-    
-    
+    padding-right: 20px;  
 }
 
- .nav-contact:hover {
+.nav-contact:hover {
     text-decoration: none;
     color: #a6c0d2 !important;
 }
+
 .nav-link {
     color: #a6c0d2 !important;
 }
+
 a.nav-link:hover {
     color: #5e8aa9!important;
     
 }
-
-
 
 .bg-light {
     background-color:#072B44 !important;
 }
 
 
+/* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR */
+
+/* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE */
+
+
 .sailingHero {
     margin-top: 56px;
     margin-bottom: 40px;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .mountainHero {
     width: 100%;
     margin-bottom: 60px;
-    
 }
 
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    text-align: center;
-    position: relative;
-   
-    
-}
-
-.content-wrap {
-    font-size: 46px;
-    
-    
-    
-}
 #myLife {
     font-size: 44px;
     font-family: 'Cinzel', serif;
@@ -140,13 +132,15 @@ a.nav-link:hover {
     color: #5e8aa9;
     text-decoration: none;
 }
+
 .erin {
     color: #a6c0d2;
     display: inline;
     position: relative;
     overflow: hidden;
-  }
-  .erin:after {
+}
+
+.erin:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -158,46 +152,24 @@ a.nav-link:hover {
     transition-property: left right;
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
-  }
-  .erin:hover:after,
-  .erin:focus:after,
-  .erin:active:after {
+}
+.erin:hover:after,
+.erin:focus:after,
+.erin:active:after {
     right: 0;
-  }
-
-
-/* h1 {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    
-    color:#F5CB5C;
-} */
-
-
-
-/* label {
-    color: #F5CB5C;
-} */
+}
 
 .carousel {
     margin-top: 50px;
-    
 }
-
 
 .divide {
-    
     background-color: #a6c0d2;
-    
 }
 
-/* a {
-    color: #5e8aa9;
-} */
+/* END OF HOME PAGE *//* END OF HOME PAGE *//* END OF HOME PAGE *//* END OF HOME PAGE *//* END OF HOME PAGE *//* END OF HOME PAGE */
 
-
-
+/* PROJECT CARDS PORTFOLIO PAGE *//* PROJECT CARDS PORTFOLIO PAGE *//* PROJECT CARDS PORTFOLIO PAGE *//* PROJECT CARDS PORTFOLIO PAGE */
 
 #typeOfProjects {
     padding-top: 100px;
@@ -209,9 +181,6 @@ a.nav-link:hover {
     text-align: center;
     color:#5e8aa9;
 }
-
-/*PROJECT CARDS */
-
 
 .projectsSection {
     display:flex;
@@ -293,10 +262,17 @@ a.projectLinks:hover:before {
     font-size: 30p;
 }
 
+/* END OF PORTFOLIO PAGE *//* END OF PORTFOLIO PAGE */
+/* END OF PORTFOLIO PAGE *//* END OF PORTFOLIO PAGE */
 
 /* CONTACT PAGE *//* CONTACT PAGE *//* CONTACT PAGE *//* CONTACT PAGE */
+/* CONTACT PAGE *//* CONTACT PAGE *//* CONTACT PAGE *//* CONTACT PAGE */
 .letsConnect {
-    color: #5e8aa9
+    color: #5e8aa9;
+    padding-bottom: 18px;
+    font-family: 'Cinzel', serif !important;
+    font-weight: bold;
+    
 }
 
 .contactBio {
@@ -311,6 +287,13 @@ a.projectLinks:hover:before {
     
 }
 
+.knownSkills {
+    font-size: 18px;
+    columns: 2;
+   -webkit-columns: 2;
+   -moz-columns: 2;
+}
+
 .btn {
     background-color: #a6c0d2;
     color: #02101A;
@@ -319,36 +302,34 @@ a.projectLinks:hover:before {
 
 .btn:hover { 
     background-color: #5e8aa9;
-    color: #a6c0d2;
+    color: #02101A;
     
 }
 
 .connectLinks {
     margin-top: 30px;
-    text-align: center;
+    
+}
+
+.connectLinks ul {
+    list-style: none;
+    padding-left:0;
 }
 
 .contactLinks {
+    font-size: 18px;
     color: #a6c0d2;
-    padding-bottom: 10px;
-    
+
 }
 
 .contactLinks:hover {
     text-decoration: none;
-    color: #5e8aa9
-    
+    color: #5e8aa9 
 }
 
-@media screen and (max-width:990px) {
-    .projectsSection {
-        flex-direction: column;
-    }
-}
+/* END OF CONTACT PAGE *//* END OF CONTACT PAGE *//* END OF CONTACT PAGE *//* END OF CONTACT PAGE *//* END OF CONTACT PAGE */
 
-
-
-/* FOOTER */
+/* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
 
 footer {
     
@@ -377,13 +358,24 @@ footer {
 .bioLinks:hover {
     color: #a6c0d2;
     text-decoration: none;
-  }
-  
+}
 
+/* END OF FOOTER *//* END OF FOOTER *//* END OF FOOTER *//* END OF FOOTER *//* END OF FOOTER *//* END OF FOOTER *//* END OF FOOTER */
+
+@media screen and (max-width:990px) {
+    .projectsSection {
+        flex-direction: column;
+    }
+    .container {
+        width:100%;
+    }
+}
 
 @media screen and (max-width:800px) {
     .left, .main, .right {
       width:100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
+
+
    
   }
