@@ -294,16 +294,41 @@ a.projectLinks:hover:before {
    -moz-columns: 2;
 }
 
+
 .btn {
-    background-color: #a6c0d2;
-    color: #02101A;
+    background-color: #02101A;
+    color: #5e8aa9;
+    border: 1px solid rgb(94, 138, 169);
     margin-top: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .btn:hover { 
-    background-color: #5e8aa9;
-    color: #02101A;
-    
+    /* background-color: #5e8aa9;
+    color: #02101A; */
+    color: #5e8aa9;
+    box-shadow: 1px 1px 25px 10px rgba(94, 138, 169, 0.4);
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(94, 138, 169, 0.4),
+    transparent
+    );
+    transition: all 650ms;
+}
+
+.btn:hover:before {
+    left: 100%;
 }
 
 .connectLinks {
