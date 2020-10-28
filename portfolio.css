@@ -41,10 +41,12 @@ html {
 .nav-link {
     margin-top: 2px;
     color: #a6c0d2 !important;
+    
 }
 
 .dropdown-menu.show {
     background-color:#072B44 !important; 
+    border: none !important;
 }
 
 a.dropdown-item:hover {
@@ -57,13 +59,23 @@ a.dropdown-item:hover {
     color:#a6c0d2;
 }
 
-.navBtn:focus {
+/* .navBtn:focus {
     box-shadow: none !important;
+} */
+.navbar-toggler {
+    border: none !important;
 }
+button.navbar-toggler {
+    outline: none !important;
+}
+.navbar-toggler-icon {
+    background-image: url("images/hamburger-icon.svg") !important;
+  }
 
 .navbar-brand:hover {
     color: #5e8aa9 !important;
 }
+
 
 .nav-link:hover {
     color: #5e8aa9!important;    
@@ -398,6 +410,9 @@ footer {
     }
     .container {
         width:100%;
+    }
+    .nav-item {
+        padding-left: 20px;
     }
 }
 
