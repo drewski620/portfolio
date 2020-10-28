@@ -21,7 +21,7 @@
 <body class="body">
 
     <div class="header" id="backToTop">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Andrew Werner</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,32 @@
                 </li>
             </ul>
             
-        </nav>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand active" href="index.html">Andrew Werner<span class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="contact.html">Contact Me
+                      
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="portfolio.html">Websites</a>
+                    <a class="dropdown-item" href="portfolio.html#personal">Reusable Components</a>
+                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </div>
     <div>
         <img class="sailingHero" src="images/evergreen-hero.jpg">

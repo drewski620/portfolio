@@ -35,12 +35,12 @@ html {
 }
 
 .navbar-brand {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: #5e8aa9 !important;
 }
 
-.dropdown {
-    padding-top: 1px;
+.nav-link {
+    margin-top: 2px;
 }
 
 .dropdown-menu.show {
@@ -52,15 +52,6 @@ a.dropdown-item:hover {
     background-color: #5e8aa9 !important;
 }
 
-.navBtn {
-    color:#a6c0d2 !important;
-    padding-top: 7px!important;
-}
-
-.navBtn:hover {
-    color: #5e8aa9!important;
-    text-decoration: none;
-}
 
 .dropdown-item {
     color:#a6c0d2;
@@ -95,6 +86,11 @@ a.nav-link:hover {
 }
 
 
+.navbar-toggler .navbar-toggler-icon{
+    color: #a6c0d2 !important
+}
+ 
+
 /* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR *//* END OF NAVBAR */
 
 /* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE *//* HOME PAGE */
@@ -116,6 +112,7 @@ a.nav-link:hover {
     font-family: 'Cinzel', serif;
     color:#5e8aa9;
     font-weight: bold;
+    padding-bottom: 12px;
 }
 
 .bio {
@@ -241,11 +238,27 @@ a.projectLinks:hover:before {
     text-decoration: none;
   
 }
+.dashed {
+    border-top: 2px dashed #a6c0d2;
+    
+}
+#reusableComponents {
+    font-size: 44px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    color:#5e8aa9;
+    /* padding-top: 12px; */
+}
 
 .personalProjectNames {
     color: #5e8aa9;
-    font-size: 36px;
+    font-size: 32px;
+    font-family: 'Cinzel', serif;
+    padding-top: 12px;
 }
+
+
 
 #form {
     color: #a6c0d2
