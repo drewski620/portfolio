@@ -243,7 +243,9 @@ a.projectLinks:hover:before {
   
 }
 .dashed {
-    border-top: 2px dashed #a6c0d2;
+    border-top: 2px dashed #5e8aa9;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 #reusableComponents {
