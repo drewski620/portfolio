@@ -35,12 +35,13 @@ html {
 }
 
 .navbar-brand {
-    /* padding-left: 20px; */
-    color: #5e8aa9 !important;
+    padding-left: 20px;
+    color: #a6c0d2 !important;
 }
 
 .nav-link {
     margin-top: 2px;
+    color: #a6c0d2 !important;
 }
 
 .dropdown-menu.show {
@@ -61,22 +62,21 @@ a.dropdown-item:hover {
     box-shadow: none !important;
 }
 
-.nav-contact {
+/* .nav-contact {
     color: #5e8aa9 !important;
     font-size: 18px;
     padding-right: 20px;  
-}
+} */
 
-.nav-contact:hover {
+/* .nav-contact:hover {
     text-decoration: none;
     color: #a6c0d2 !important;
-}
+} */
 
-.nav-link {
-    color: #a6c0d2 !important;
+.navbar-brand:hover {
+    color: #5e8aa9 !important;
 }
-
-a.nav-link:hover {
+.nav-link:hover {
     color: #5e8aa9!important;
     
 }
